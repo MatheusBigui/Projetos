@@ -12,14 +12,14 @@ body {
 }
 
 #relogio {
-    background-image: url;
+    background-image: linear-gradient(to right, yellow, orange);
     border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 5em;
+    font-size: 10em;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.425);
     max-width: 900px;
 }
