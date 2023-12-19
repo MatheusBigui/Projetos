@@ -12,29 +12,36 @@ body {
 }
 
 #relogio {
-    background-image: linear-gradient(to right, yellow, orange);
+    background-image: url('images/noite.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 10em;
+    font-size: 5em;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.425);
     max-width: 900px;
+    height: 25vh;
+    width: 50vh;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#segundos {
-    border: 1px solid black;
-    padding: 5px;
+.divisoria {
+    color: white;
 }
 
-#minutos {
-    border: 1px solid black;
-    padding: 5px;
-}
-
+#segundos,
+#minutos,
 #horas {
     border: 1px solid black;
     padding: 5px;
+    background-color: rgba(70, 66, 66, 0.493);
+    color: white;
 }
